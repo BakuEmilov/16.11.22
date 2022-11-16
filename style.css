@@ -9,6 +9,11 @@ body {
 }
 nav {
   background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
   
 }
 nav ul {
@@ -29,4 +34,20 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   text-transform: uppercase;
+}
+
+header{
+  background-image: url(./kosmos.jpeg);
+  color: white;
+  text-align: center;
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+h1{
+  margin: 0;
 }
